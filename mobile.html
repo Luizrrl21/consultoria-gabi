@@ -1,0 +1,143 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mentoria Comercial Mobile | Gabrielle Noronha</title>
+  <meta name="description" content="Mentoria comercial direta para quem precisa de direção rápida. Agende sua conversa com Gabrielle Noronha e organize suas vendas." />
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      if (params.get('view') === 'mobile') {
+        return;
+      }
+      var ua = navigator.userAgent || navigator.vendor || window.opera || '';
+      var isMobileUA = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+      var isNavigatorMobile = navigator.userAgentData && navigator.userAgentData.mobile;
+      var isSmallViewport = window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
+      var isMobile = isMobileUA || isNavigatorMobile || isSmallViewport;
+      if (!isMobile) {
+        var target = 'index.html';
+        if (params.get('view') === 'desktop') {
+          target += '?view=desktop';
+        }
+        window.location.replace(target);
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio">
+      <span class="brand__mark">GN</span>
+      <span class="brand__text">Gabrielle Noronha</span>
+    </a>
+    <a class="topbar__cta" href="https://wa.me/5585988597636" target="_blank" rel="noopener">Falar agora</a>
+  </header>
+
+  <main id="inicio" class="wrapper">
+    <section class="hero">
+      <p class="hero__kicker">Mentoria Comercial</p>
+      <h1>Direção rápida para suas vendas</h1>
+      <p class="hero__lead">Diagnóstico objetivo, plano de ação claro e apoio para você executar com consistência.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="https://wa.me/5585988597636?text=Quero%20mentoria%20comercial" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn--ghost" href="mailto:mentoriaessencialvendas@gmail.com?subject=Mentoria%20Comercial">Enviar e-mail</a>
+      </div>
+      <ul class="hero__highlights" aria-label="Benefícios principais">
+        <li>Mentorias individuais ou em equipe</li>
+        <li>Plano de crescimento em até 7 dias</li>
+        <li>Rituais semanais para manter o foco</li>
+      </ul>
+    </section>
+
+    <section class="atendimentos" aria-labelledby="titulo-atendimentos">
+      <h2 id="titulo-atendimentos">Serviços sob medida</h2>
+      <article class="card">
+        <h3>Fortalecimento de Competências Comerciais</h3>
+        <p class="card__subtitle">Transforme sua atuação comercial em resultados consistentes.</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Desenvolver habilidades práticas de negociação, prospecção, atendimento e técnicas de fechamento.</li>
+          <li><strong>Formato:</strong> Encontros de 2h a 3h (online ou presencial) conforme o plano contratado.</li>
+          <li><strong>Ideal para:</strong> Vendedores, representantes, gestores comerciais e empreendedores.</li>
+          <li><strong>Material incluso:</strong> Conteúdo personalizado produzido durante a mentoria.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Estruturação Comercial e Marketing</h3>
+        <p class="card__subtitle">Conectando vendas, comunicação e geração de demanda.</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Organizar processos, funil de vendas, metas, campanhas e integração entre times.</li>
+          <li><strong>Formato:</strong> Imersões e sprints com entregas semanais e rituais de acompanhamento.</li>
+          <li><strong>Ideal para:</strong> Empresas em fase de estruturação ou pivotagem comercial.</li>
+          <li><strong>Material incluso:</strong> Mapas de processos, funil detalhado e planos integrados de marketing.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Desenvolvimento de Líderes Comerciais</h3>
+        <p class="card__subtitle">O próximo passo para liderar com visão e resultado.</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Capacitar líderes para decisões estratégicas, engajamento de equipes e previsibilidade de receita.</li>
+          <li><strong>Formato:</strong> Programas modulares com mentorias individuais e fóruns coletivos.</li>
+          <li><strong>Ideal para:</strong> Supervisores, coordenadores, gerentes e sucessores.</li>
+          <li><strong>Material incluso:</strong> Ferramentas de gestão e liderança aplicáveis no dia a dia.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Desenvolvimento de Equipes de Vendas</h3>
+        <p class="card__subtitle">Profissionais mais preparados, resultados mais consistentes.</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Treinamentos em prospecção, negociação, gestão de carteira e atingimento de metas.</li>
+          <li><strong>Formato:</strong> Trilhas de aprendizagem com dinâmicas práticas.</li>
+          <li><strong>Ideal para:</strong> Equipes de vendas internas e externas, representantes e SDRs.</li>
+          <li><strong>Material incluso:</strong> Playbooks, exercícios e acompanhamentos pós-treinamento.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Mentoria de Posicionamento Comercial</h3>
+        <p class="card__subtitle">Sua marca pessoal com força comercial.</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Fortalecer presença, construir autoridade e alinhar narrativa comercial.</li>
+          <li><strong>Formato:</strong> Sessões personalizadas com entregas práticas a cada encontro.</li>
+          <li><strong>Ideal para:</strong> Profissionais autônomos, especialistas e fundadores.</li>
+          <li><strong>Material incluso:</strong> Plano de posicionamento, calendário editorial e rotinas comerciais.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="prova" aria-labelledby="titulo-prova">
+      <h2 id="titulo-prova">Por que empresas me procuram</h2>
+      <ul class="prova__lista">
+        <li><strong>+12 anos</strong> liderando times comerciais.</li>
+        <li><strong>Metodologia</strong> aplicada em indústria, varejo e serviços.</li>
+        <li><strong>Foco em execução</strong>: da estratégia ao acompanhamento semanal.</li>
+      </ul>
+    </section>
+
+    <section class="contato" aria-labelledby="titulo-contato">
+      <h2 id="titulo-contato">Pronto para avançar?</h2>
+      <p>Vamos conversar e entender o melhor formato para o seu momento.</p>
+      <div class="contato__acoes">
+        <a class="btn btn--primary" href="https://wa.me/5585988597636" target="_blank" rel="noopener">Falar com a Gabrielle</a>
+        <a class="btn btn--ghost" href="mailto:mentoriaessencialvendas@gmail.com?subject=Mentoria%20Comercial">Enviar briefing</a>
+      </div>
+      <address class="contato__dados">
+        <span><strong>Email:</strong> mentoriaessencialvendas@gmail.com</span>
+        <span><strong>Instagram:</strong> <a href="https://instagram.com/mentoriacomgabi" target="_blank" rel="noopener">@mentoriacomgabi</a></span>
+      </address>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© <span id="ano"></span> Gabrielle Noronha. Mentoria Comercial.</small>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
