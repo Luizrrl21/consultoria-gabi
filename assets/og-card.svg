@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f0ee" />
+      <stop offset="1" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="1200" height="630" rx="48" />
+  <rect x="52" y="52" width="1096" height="526" rx="40" fill="#fff" stroke="#f1d9d3" stroke-width="4" />
+  <rect x="75" y="75" width="435" height="480" rx="36" fill="#d9887c" opacity="0.12" />
+  <text x="120" y="180" font-family="'Playfair Display', 'Times New Roman', serif" font-size="72" font-weight="700" fill="#d9887c">Gabrielle</text>
+  <text x="120" y="256" font-family="'Playfair Display', 'Times New Roman', serif" font-size="72" font-weight="700" fill="#3f3a38">Noronha</text>
+  <text x="120" y="320" font-family="Inter, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#7b6c66">Mentoria Comercial</text>
+  <text x="120" y="378" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" fill="#7b6c66">Diagn&#243;stico &#8226; Estrat&#233;gia &#8226; Execu&#231;&#227;o com Times de Vendas</text>
+  <rect x="120" y="410" width="268" height="4" fill="#d9887c" />
+  <text x="120" y="470" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="#7b6c66">+12 anos liderando opera&#231;&#245;es comerciais</text>
+  <text x="120" y="512" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="#7b6c66">Mentorias personalizadas para empresas e profissionais</text>
+  <circle cx="870" cy="220" r="140" fill="#d9887c" opacity="0.15" />
+  <circle cx="980" cy="320" r="120" fill="#d9887c" opacity="0.12" />
+  <text x="820" y="320" font-family="Inter, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#d9887c">Resultados Reais</text>
+  <text x="820" y="360" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="#3f3a38">Processos, rituais e growth para vendas</text>
+</svg>
